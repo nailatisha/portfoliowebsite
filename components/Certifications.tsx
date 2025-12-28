@@ -35,8 +35,8 @@ const certificates: Certificate[] = [
     title: 'Responsive Web Design',
     issuer: 'FreeCodeCamp',
     year: '2025',
-    image: '/certificates/Screenshot 2025-12-24 174940.png',
-    fullImage: '/certificates/Screenshot 2025-12-24 174940.png',
+    image: 'certificates/Screenshot 2025-12-24 174940.png',
+    fullImage: 'certificates/Screenshot 2025-12-24 174940.png',
   },
 ]
 

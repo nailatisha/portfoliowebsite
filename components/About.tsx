@@ -40,7 +40,7 @@ export default function About() {
           >
             <div className="relative aspect-[4/5] overflow-hidden shadow-2xl border-4 border-editorial-white w-full max-w-[320px]">
               <img 
-                src="/images/yourphoto.png" 
+                src="images/yourphoto.png" 
                 alt="Naila Latisha Putri Noegraha" 
                 className="w-full h-full object-cover" 
               />
