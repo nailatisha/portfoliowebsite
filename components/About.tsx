@@ -11,7 +11,7 @@ export default function About() {
     // Create a simple PDF download simulation
     // In production, replace this with actual PDF file path
     const link = document.createElement('a')
-    link.href = '/cv_naila.pdf' // Replace with your actual CV file path
+    link.href = 'cv_naila.pdf' // Replace with your actual CV file path
     link.download = 'CV_Naila.pdf'
     document.body.appendChild(link)
     link.click()
