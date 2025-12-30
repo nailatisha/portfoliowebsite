@@ -79,7 +79,7 @@ export default function Hero() {
               letterSpacing: '-0.01em',
             }}
           >
-            Teaching Assistant for Introduction to Accounting at FIA UI
+            Principle Accounting Assistant Lecturer at FIA UI
           </motion.p>
 
           {/* Contact Info */}

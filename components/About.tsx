@@ -11,8 +11,8 @@ export default function About() {
     // Create a simple PDF download simulation
     // In production, replace this with actual PDF file path
     const link = document.createElement('a')
-    link.href = '/cv.pdf' // Replace with your actual CV file path
-    link.download = 'CV.pdf'
+    link.href = 'cv_naila.pdf' // Replace with your actual CV file path
+    link.download = 'CV_Naila.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -96,7 +96,7 @@ export default function About() {
               transition={{ delay: 0.5 }}
               className="flex flex-wrap gap-2 md:gap-3 pt-3"
             >
-              {['Business', 'Finance', 'Management', 'Research', 'Marketing', 'Microsoft Office'].map((skill, index) => (
+              {['Business', 'Finance', 'Management', 'Research', 'Marketing'].map((skill, index) => (
                 <span
                   key={skill}
                   className="px-3 py-1.5 md:px-4 md:py-2 bg-editorial-white text-editorial-black rounded-full text-xs md:text-sm font-bold font-display hover:bg-editorial-blue-accent hover:text-editorial-white transition-colors"
